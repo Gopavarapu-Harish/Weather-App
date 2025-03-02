@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <h1 class="Welcome" style="color:white; margin-top:40px; margin-left:400px">
+        🌦️ Welcome to <span style="color:red">Weather</span> Report 🌍
+    </h1 >
+    
+    <div class="container">
+        <section class="main">
+            <section class="inputs">
+                <input type="text" placeholder="enter city name" id="cityinput">
+                <button id="add">Submit</button>
+            </section>
+            <section class="display">
+                <div class="wrapper">
+                    <h2 id="cityoutput">please enter valid city name to view present weather report</h2>
+                    <p id="description"></p>
+                    <p id="temp"></p>
+                    <p id="wind"></p>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
